@@ -40,3 +40,22 @@ margin-left: calc(100% * 1 / 6);
 /* Part 2 */
 /* CSS for Index 2 */
 /* This line and below */
+#secondlayout main {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(12, auto);
+    grid-template-areas: 
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .'
+    '. . . . . .';
+}
+
+#secondlayout #titlerow { grid-area: title; }
