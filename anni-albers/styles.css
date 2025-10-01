@@ -45,19 +45,20 @@ margin-left: calc(100% * 1 / 6);
     grid-template-columns: repeat(6, auto);
     grid-template-rows: repeat(12, auto);
     grid-template-areas: 
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .'
-    '. . . . . .';
+    'title title title title title title'
+    '. p1 p1 p1 . .'
+    'p2 p2 p2 c1 c1 c1'
+    '. p3 p3 p3 . .'
+    'p4 p4 p4 c2 c2 c2'
+    '. p5 p5 p5 . .'
+    'p6 p6 p6 c3 c3 c3'
+    '. p7 p7 p7 . .'
+    'p8 p8 p8 c4 c4 c4'
+    '. p9 p9 p9 . .'
+    'p10 p10 p10 . . .'
+    '. p11 p11 p11. .';
 }
-
+/* assigning grid area names */
 #secondlayout #titlerow { grid-area: title; }
 #secondlayout #para1 { grid-area: p1;}
 #secondlayout #para2 { grid-area: p2;}
@@ -74,3 +75,8 @@ margin-left: calc(100% * 1 / 6);
 #secondlayout #callout2 { grid-area: c2;}
 #secondlayout #callout3 { grid-area: c3;}
 #secondlayout #callout4 { grid-area: c4;}
+
+/*override the baseline p styles from above*/
+#secondlayout p {
+    width: 100%;
+}
