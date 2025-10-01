@@ -80,3 +80,15 @@ margin-left: calc(100% * 1 / 6);
 #secondlayout p {
     width: 100%;
 }
+#secondlayout #callout1 {
+    padding-left: 0;
+}
+#secondlayout #callout2 {
+    padding-left: 0;
+}
+#secondlayout #callout3 {
+    padding-left: 0;
+}
+#secondlayout #callout4 {
+    padding-left: 0;
+}
