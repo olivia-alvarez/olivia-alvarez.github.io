@@ -54,3 +54,7 @@ header {
         width: 45vw;
     }
 }
+
+#rhodiepicture2 {
+    float: right;
+}
