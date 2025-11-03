@@ -38,3 +38,19 @@ header {
     font-size: 2.5em;
     width: calc(100vw - 2em);
 }
+
+@media screen and (orientation: landscape) {
+    #rhodiepicture {
+        width: 50vw;
+    }
+
+    #rhodietitle {
+        width: 50vw;
+        left: 50vw;
+        background-color: #55883b;
+    }
+
+    #rhodietitle h1 {
+        width: 45vw;
+    }
+}
