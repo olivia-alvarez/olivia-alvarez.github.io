@@ -1,0 +1,64 @@
+/* mobile-first design for Pacific Rhododendron layout */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+#rhodiepicture {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("PacificRhododendron1-WalterSiegmund.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+#rhodietitle {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#rhodietitle h1 {
+    position: absolute;
+    bottom: 0;
+    left: 1em;
+    color:white;
+    font-size: 2.5em;
+    width: calc(100vw - 2em);
+}
+
+@media screen and (orientation: landscape) {
+    #rhodiepicture {
+        width: 50vw;
+    }
+
+    #rhodietitle {
+        width: 50vw;
+        left: 50vw;
+        background-color: #55883b;
+    }
+
+    #rhodietitle h1 {
+        width: 45vw;
+    }
+}
+
+#rhodiepicture2 {
+    float: right;
+    margin-bottom: 60px; 
+    margin-top: 20px;
+    margin-right: 45px;
+    margin-left: -50px;
+}
