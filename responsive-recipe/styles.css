@@ -4,11 +4,9 @@
 }
 @media screen and (orientation: portrait) {
     #pecanpie {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        /* Optional: Define a width smaller than the container for margin auto to work */
-        width: 50%
+        width: 100%; /* Makes image take full width of its container */
+        height: auto; /* Maintains original aspect ratio */
+        max-width: 100%; /* Prevents it from exceeding its natural size */
     }
 
     #pietitle {
