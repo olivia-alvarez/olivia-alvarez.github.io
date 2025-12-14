@@ -17,7 +17,7 @@
 }
 @media screen and (orientation: landscape) {
     #pecanpie {
-        position:fixed
+        position:relative
         left: 500px;
     }
 }
