@@ -15,3 +15,9 @@
         width: 45vw;
     }
 }
+@media screen and (orientation: landscape) {
+    #pecanpie {
+        position:fixed
+        left: 500px;
+    }
+}
