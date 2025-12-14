@@ -3,13 +3,13 @@
         width: 50vw;
     }
 
-    #rhodietitle {
+    #pietitle {
         width: 50vw;
         left: 50vw;
-        background-color: #55883b;
+        background-color: #ae945a;
     }
 
-    #rhodietitle h1 {
+    #pietitle h1 {
         width: 45vw;
     }
 }
