@@ -1,17 +1,17 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 @media screen and (orientation: portrait) {
     #pecanpie {
         width: 100vw;
     }
 
     #pietitle {
-        width: 50vw;
+        width: 75vw;
         left: 50vw;
     }
 
     #pietitle h1 {
         width: 45vw;
     }
-}
-{
-    font-family: Arial, Helvetica, sans-serif;
 }
