@@ -15,7 +15,6 @@
         width: 45vw;
     }
 }
-@media screen and (orientation: landscape) {
     #pecanpie {
     float: right;
     margin-bottom: 60px; 
@@ -23,4 +22,3 @@
     margin-right: 45px;
     margin-left: -50px;
     }
-}
