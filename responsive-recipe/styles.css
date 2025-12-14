@@ -4,6 +4,7 @@
 @media screen and (orientation: portrait) {
     #pecanpie {
         width: 100vw;
+        margin: 0 auto; /*centers the element horizontally*/
     }
 
     #pietitle {
