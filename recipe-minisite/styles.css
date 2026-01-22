@@ -76,10 +76,10 @@
 /* define variables */
 :root {
     --nav-height: 3rem;
-    --nav-bkgd-color: gray;
+    --nav-bkgd-color: teal;
     --nav-text-color: white;
-    --nav-hover-bkgd-color: lightgray;
-    --nav-hover-text-color: black;
+    --nav-hover-bkgd-color: lightblue;
+    --nav-hover-text-color: gray;
 }
 
 * {
