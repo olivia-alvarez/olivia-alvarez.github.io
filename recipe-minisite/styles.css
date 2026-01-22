@@ -10,11 +10,6 @@
         height: auto;
         max-width: 100%;
         /* Prevents it from exceeding its natural size */
-        float: right;
-        margin-bottom: 60px;
-        margin-top: 20px;
-        margin-right: 45px;
-        margin-left: -50px;
     }
 
     #pietitle {
@@ -32,11 +27,6 @@
         height: auto;
         max-width: 100%;
         /* Prevents it from exceeding its natural size */
-        float: right;
-        margin-bottom: 60px;
-        margin-top: 20px;
-        margin-right: 45px;
-        margin-left: -50px;
     }
 
     #pietitle2 {
@@ -54,11 +44,6 @@
         height: auto;
         max-width: 100%;
         /* Prevents it from exceeding its natural size */
-        float: right;
-        margin-bottom: 60px;
-        margin-top: 20px;
-        margin-right: 45px;
-        margin-left: -50px;
     }
 
     #pietitle3 {
@@ -69,6 +54,31 @@
     #pietitle3 h1 {
         width: 45vw;
     }
+
+}
+
+#pecanpie {
+    float: right;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-right: 45px;
+    margin-left: -50px;
+}
+
+#berrypie {
+    float: right;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-right: 45px;
+    margin-left: -50px;
+}
+
+#peachcob {
+    float: right;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-right: 45px;
+    margin-left: -50px;
 }
 
 /* CSS for responsive menu */
