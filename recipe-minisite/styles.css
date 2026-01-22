@@ -79,7 +79,7 @@
     --nav-bkgd-color: teal;
     --nav-text-color: white;
     --nav-hover-bkgd-color: lightblue;
-    --nav-hover-text-color: gray;
+    --nav-hover-text-color: rgb(99, 99, 99);
 }
 
 * {
