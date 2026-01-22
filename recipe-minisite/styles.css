@@ -42,4 +42,24 @@
     #pietitle2 h1 {
         width: 45vw;
     }
+
+    #peachcob {
+    width: 100%; /* Makes image take full width of its container */
+    height: auto;
+    max-width: 100%; /* Prevents it from exceeding its natural size */ 
+    float: right;
+    margin-bottom: 60px; 
+    margin-top: 20px;
+    margin-right: 45px;
+    margin-left: -50px;
+    }
+
+    #pietitle3 {
+        width: 75vw;
+        left: 50vw;
+    }
+
+    #pietitle3 h1 {
+        width: 45vw;
+    }
 }
