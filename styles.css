@@ -30,10 +30,10 @@
 
      #stockimage {
         float: right;
-        margin-bottom: -60px;
-        margin-top: -20px;
-        margin-right: -45px;
-        margin-left: 50px;
+        margin-bottom: 120px;
+        margin-top: 40px;
+        margin-right: 90px;
+        margin-left: -100px;
     }
 
     body {
