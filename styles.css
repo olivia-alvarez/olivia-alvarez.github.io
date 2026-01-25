@@ -12,6 +12,10 @@
         /* Or use 1.2rem, 1em, etc. */
     }
 
+    header {
+        background-color: lightpink;
+    }
+
     #profilepicture {
         float: right;
         margin-bottom: 60px;
