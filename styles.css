@@ -1,7 +1,6 @@
     * {
         box-sizing: border-box;
         font-family: Arial, Helvetica, sans-serif;
-        color: #895129;
     }
 
     p {
@@ -15,6 +14,10 @@
 
     #section1 {
         color: white;
+    }
+
+    #section2 {
+         color: #895129;
     }
 
     #profilepicture {
