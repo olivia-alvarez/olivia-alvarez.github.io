@@ -38,10 +38,9 @@
 
     body {
         background-image: url("webbanner.jpg");
-        /* Specify the image path */
     }
 
     a:visited {
-        color: hotpink;
+        color: #fd1f8e;
         /* Visited link color */
     }
