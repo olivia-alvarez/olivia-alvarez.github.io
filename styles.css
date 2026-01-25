@@ -24,3 +24,10 @@
         margin-right: 45px;
         margin-left: -50px;
     }
+
+    .section2 {
+        background-image: url("images/background-image.jpg");
+        /* Specify the image path */
+        height: 100vh;
+        /* Example height to make the background visible */
+    }
