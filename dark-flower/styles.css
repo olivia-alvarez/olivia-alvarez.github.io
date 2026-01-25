@@ -71,3 +71,8 @@ body.darkMode {
 body.darkMode #rhodietitle {
     background-color: #7a0d31;
 }
+
+#toggleDarkMode {
+    background-color: #55883b;
+    color: white;
+}
