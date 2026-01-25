@@ -12,7 +12,7 @@
         /* Or use 1.2rem, 1em, etc. */
     }
 
-    header {
+    #section1 {
         background-color: lightpink;
         color: white;
     }
