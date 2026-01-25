@@ -62,3 +62,12 @@ header {
     margin-right: 45px;
     margin-left: -50px;
 }
+
+body.darkMode {
+    background-color: darkgrey;
+    color: white;
+}
+
+body.darkMode h1 {
+    color: #d11969;
+}
