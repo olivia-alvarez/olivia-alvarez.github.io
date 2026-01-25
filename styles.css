@@ -7,6 +7,11 @@
         font-size: 18px;
     }
 
+    li {
+        font-size: 18px;
+        /* Or use 1.2rem, 1em, etc. */
+    }
+
     #profilepicture {
         float: right;
         margin-bottom: 60px;
