@@ -68,6 +68,6 @@ body.darkMode {
     color: white;
 }
 
-body.darkMode #rhodietitle h1 {
-    color: #4b0019;
+body.darkMode #rhodietitle {
+    background-color: #4b0019;
 }
