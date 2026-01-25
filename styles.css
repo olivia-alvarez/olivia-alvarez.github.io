@@ -30,3 +30,8 @@
         background-image: url("webbanner.jpg");
         /* Specify the image path */
     }
+
+    a:visited {
+        color: pink;
+        /* Visited link color */
+    }
