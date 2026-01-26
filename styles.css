@@ -50,7 +50,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            /* Optional: set a width if the image is wider than the page */
+            /* Sets image to center */
             width: 100%;
         }
     }
