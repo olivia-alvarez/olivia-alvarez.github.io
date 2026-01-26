@@ -44,3 +44,11 @@
         color: #fd1f8e;
         /* Visited link color */
     }
+
+    @media screen and (orientation: portrait) {
+    #stockimage {
+        width: 100%; /* Makes image take full width of its container */
+        height: auto;
+        max-width: 100%; /* Prevents it from exceeding its natural size */
+    }
+}
