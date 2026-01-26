@@ -40,9 +40,19 @@
         background-image: url("webbanner.jpg");
     }
 
+    a:link {
+        color: #1d1515;
+        /* Unvisited link color */
+    }
+
     a:visited {
         color: #fd1f8e;
         /* Visited link color */
+    }
+
+    a:hover {
+        color: green
+        /* Mouse over link color */
     }
 
     @media screen and (orientation: portrait) {
