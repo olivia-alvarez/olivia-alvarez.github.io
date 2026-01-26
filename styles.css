@@ -51,6 +51,6 @@
             margin-left: auto;
             margin-right: auto;
             /* Optional: set a width if the image is wider than the page */
-            width: 50%;
+            width: 100%;
         }
     }
