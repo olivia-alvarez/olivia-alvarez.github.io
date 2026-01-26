@@ -20,12 +20,20 @@
         color: #1d1515;
     }
 
-    .image-container {
-        display: flex;
-        /* Activates the flexbox layout */
-        flex-direction: column;
-        /* Stacks the children vertically */
-        align-items: flex-end;
+    #profilepicture {
+        float: right;
+        margin-bottom: 60px;
+        margin-top: 20px;
+        margin-right: 45px;
+        margin-left: -50px;
+    }
+
+    #stockimage {
+        float: right;
+        margin-bottom: 120px;
+        margin-top: 40px;
+        margin-right: 90px;
+        margin-left: -100px;
     }
 
     body {
