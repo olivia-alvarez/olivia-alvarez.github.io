@@ -20,21 +20,17 @@
         color: #1d1515;
     }
 
-    #profilepicture {
-        float: right;
-        margin-bottom: 60px;
-        margin-top: 20px;
-        margin-right: 45px;
-        margin-left: -50px;
+    .image-container {
+        display: flex;
+        /* Activates the flexbox layout */
+        flex-direction: column;
+        /* Stacks the children vertically */
+        align-items: center;
+        /* Centers the images horizontally within the container */
+        /* Optional: set a height for the container if you need to align within a specific vertical space */
+        /* height: 500px; */
     }
 
-    #stockimage {
-        float: right;
-        margin-bottom: 120px;
-        margin-top: 40px;
-        margin-right: 90px;
-        margin-left: -100px;
-    }
 
     body {
         background-image: url("webbanner.jpg");
@@ -52,7 +48,7 @@
 
     a:hover {
         color: green
-        /* Mouse over link color */
+            /* Mouse over link color */
     }
 
     @media screen and (orientation: portrait) {
