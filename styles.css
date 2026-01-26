@@ -17,7 +17,7 @@
     }
 
     #section2 {
-         color: #4D301B;
+        color: #4D301B;
     }
 
     #profilepicture {
@@ -28,7 +28,7 @@
         margin-left: -50px;
     }
 
-     #stockimage {
+    #stockimage {
         float: right;
         margin-bottom: 120px;
         margin-top: 40px;
@@ -46,9 +46,11 @@
     }
 
     @media screen and (orientation: portrait) {
-    #stockimage {
-        width: 100%; /* Makes image take full width of its container */
-        height: auto;
-        max-width: 100%; /* Prevents it from exceeding its natural size */
+        #stockimage {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* Optional: set a width if the image is wider than the page */
+            width: 50%;
+        }
     }
-}
