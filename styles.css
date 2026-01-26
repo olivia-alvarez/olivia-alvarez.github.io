@@ -26,11 +26,8 @@
         flex-direction: column;
         /* Stacks the children vertically */
         align-items: flex-end;
-        /* Centers the images horizontally within the container */
-        /* Optional: set a height for the container if you need to align within a specific vertical space */
-        /* height: 500px; */
-    }
 
+    }
 
     body {
         background-image: url("webbanner.jpg");
