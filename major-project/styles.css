@@ -9,7 +9,7 @@
 
     footer {
     text-align: center; /* Center the text inside the footer */
-    padding: 20px;      /* Add some space around the content */
+    padding: 10px;      /* Add some space around the content */
     background-color: teal; /* Dark background color */
     color: white;       /* White text color */
     width: 100%;        /* Ensure the footer spans the full width */
