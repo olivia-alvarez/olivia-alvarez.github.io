@@ -3,16 +3,32 @@
     box-sizing: border-box;
 }
 
-    #maintitle {
-        background-image: url("cocinabanner.jpg");
-    }
+#maintitle {
+    background-image: url("cocinabanner.jpg");
+}
 
-    footer {
-    text-align: center; /* Center the text inside the footer */
-    padding: 2.5px;     
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Minimum height of the body is 100% of the viewport height */
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    /* This makes the main content expand to fill the available space */
+}
+
+footer {
+    text-align: center;
+    /* Center the text inside the footer */
+    padding: 2.5px;
     background-color: teal;
-    color: white;       /* White text color */
-    width: 100%;        /* Ensure the footer spans the full width */
+    color: white;
+    /* White text color */
+    width: 100%;
+    /* Ensure the footer spans the full width */
 }
 
 @media screen and (orientation: portrait) {
