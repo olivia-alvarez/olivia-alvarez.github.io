@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-#maintitle {
-    background-image: url("cocinabanner.jpg");
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -29,6 +25,11 @@ footer {
     /* White text color */
     width: 100%;
     /* Ensure the footer spans the full width */
+}
+
+#greeting {
+    width: 300px;
+    padding: 20px;
 }
 
 @media screen and (orientation: portrait) {
