@@ -21,7 +21,8 @@
 }
 
 #contentlayout1 {
-    margin: 50px;
+    margin: 45px;
+    background-image: url("limes.jpeg");
 }
 
 /* CSS for responsive photos and headings */
