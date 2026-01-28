@@ -27,10 +27,6 @@ footer {
     /* Ensure the footer spans the full width */
 }
 
-#greeting {
-    width: 500px;
-    padding: 50x;
-}
 
 @media screen and (orientation: portrait) {
     #pecanpie {
