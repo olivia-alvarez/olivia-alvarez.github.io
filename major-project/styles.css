@@ -16,6 +16,10 @@
     /* Ensure the footer spans the full width */
 }
 
+#contentlayout {
+    margin: 20px;
+}
+
 
 @media screen and (orientation: portrait) {
     #chickentacos {
