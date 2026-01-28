@@ -43,10 +43,11 @@
 
 #chickentacos {
     float: right;
-    margin-bottom: 60px;
-    margin-top: 20px;
-    margin-right: 45px;
-    margin-left: -50px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-right: 0px;
+    margin-left: -20px;
+
 }
 
 /* CSS for responsive menu */
