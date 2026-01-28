@@ -28,8 +28,8 @@ footer {
 }
 
 #greeting {
-    width: 300px;
-    padding: 20px;
+    width: 500px;
+    padding: 50x;
 }
 
 @media screen and (orientation: portrait) {
