@@ -276,6 +276,11 @@
 
 #maintitle {
     background-image: url("cozycocina.jpg");
+      width: 100%;
+        /* Makes image take full width of its container */
+        height: auto;
+        max-width: 100%;
+        /* Prevents it from exceeding its natural size */
 }
 
 /* CSS for responsive menu */
