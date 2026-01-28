@@ -29,7 +29,7 @@ footer {
 
 
 @media screen and (orientation: portrait) {
-    #pecanpie {
+    #chickentacos {
         width: 100%;
         /* Makes image take full width of its container */
         height: auto;
@@ -37,12 +37,12 @@ footer {
         /* Prevents it from exceeding its natural size */
     }
 
-    #pietitle {
+    #recipetitle1 {
         width: 75vw;
         left: 50vw;
     }
 
-    #pietitle h1 {
+    #recipetitle h1 {
         width: 45vw;
     }
 
