@@ -56,6 +56,23 @@
         width: 45vw;
     }
 
+      #churros {
+        width: 100%;
+        /* Makes image take full width of its container */
+        height: auto;
+        max-width: 100%;
+        /* Prevents it from exceeding its natural size */
+    }
+
+    #recipetitle5 {
+        width: 75vw;
+        left: 50vw;
+    }
+
+    #recipetitle5 h1 {
+        width: 45vw;
+    }
+
 }
 
 #chickentacos {
@@ -68,6 +85,15 @@
 }
 
 #mojito {
+    float: right;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-right: 0px;
+    margin-left: -20px;
+
+}
+
+#churros {
     float: right;
     margin-bottom: 50px;
     margin-top: 25px;
