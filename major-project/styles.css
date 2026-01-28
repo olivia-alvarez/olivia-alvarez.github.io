@@ -20,7 +20,7 @@
     margin: 20px;
 }
 
-
+/* CSS for responsive photos and headings */
 @media screen and (orientation: portrait) {
     #chickentacos {
         width: 100%;
@@ -107,6 +107,23 @@
         width: 45vw;
     }
 
+    #tortillas {
+        width: 100%;
+        /* Makes image take full width of its container */
+        height: auto;
+        max-width: 100%;
+        /* Prevents it from exceeding its natural size */
+    }
+
+    #recipetitle9 {
+        width: 75vw;
+        left: 50vw;
+    }
+
+    #recipetitle9 h1 {
+        width: 45vw;
+    }
+
 }
 
 #chickentacos {
@@ -146,6 +163,15 @@
 }
 
 #elote {
+    float: right;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-right: 0px;
+    margin-left: -20px;
+
+}
+
+#tortillas {
     float: right;
     margin-bottom: 50px;
     margin-top: 25px;
